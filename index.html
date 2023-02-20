@@ -12,6 +12,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.min.css" />
   </head>
   <body>
@@ -28,20 +31,90 @@
             Awesome Games</span></h1>
           <nav class="hero__nav">
             <ul class="hero__nav--list">
-              <li class="hero__nav--item"></li>
-              <li class="hero__nav--item"></li>
-              <li class="hero__nav--item"></li>
-              <li class="hero__nav--item"></li>
+              <li class="hero__nav--item"><a href="#" class="hero__nav--link">About</a></li>
+              <li class="hero__nav--item"><a href="#" class="hero__nav--link">Development</a></li>
+              <li class="hero__nav--item"><a href="#" class="hero__nav--link">Projects</a></li>
+              <li class="hero__nav--item"><a href="#" class="hero__nav--link">Blog</a></li>
             </ul>
           </nav>
         </div>
     </header>
     <main>
-      <section>
+      <section class="about_sub" id="about">
         <div class="container">
-          
+          <div class="about-grid-container">
+            <div class="block-about__title">
+              <h3 class="block-about__title--sup">About </h3>
+              <h2 class="block-about__title--sub-s">S<span class="block-about__title--sub-ub">ub</span><span class="block-about__title--sub-lime">lime</span></h2>
+            </div>
+            <div class="block-about__text">
+              <h4 class="block-about__text--title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim. Nulla pellentesque et nisi et euismod. Pellentesque quis tristique magna.</h4>
+              <p class="block-about__text--text">Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt rhoncus vel, molestie ut ligula. Mauris vitae ullamcorper odio. Mauris id enim gravida, tempor velit non, vehicula lacus. Sed rutrum tempus urna, sed aliquam lectus egestas eu. Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt rhoncus vel, molestie ut ligula. Mauris vitae ullamcorper odio. Mauris id enim gravida, tempor velit non, vehicula lacus. Sed rutrum tempus urna, sed aliquam lectus egestas eu</p>
+            </div>
+          </div>
+          <div class="about-flex-container">
+            <ul class="about-flex-container__list">
+              <li class="about-flex-container__list--item">
+                <span class="about-flex-container__item--logo">                 
+                </span>
+                <h4 class="about-flex-container__item--title">App Development</h4>
+                <p class="about-flex-container__item--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim. Nulla pellentesque et nisi et euismod. Pellentesque quis tristique magna</p>
+                <p class="about-flex-container__item--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim. Nulla pellentesque et nisi et euismod. Pellentesque quis tristique magna.
+                </p>
+              </li>
+              <li class="about-flex-container__list--item">
+                <span class="about-flex-container__item--logo">               
+                </span>
+                <h4 class="about-flex-container__item--title">Game Design</h4>
+                <p class="about-flex-container__item--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim. Nulla pellentesque et nisi et euismod. Pellentesque quis tristique magna.
+</p>
+                <p class="about-flex-container__item--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim. Nulla pellentesque et nisi et euismod. Pellentesque quis tristique magna.
+</p>
+              </li>
+              <li class="about-flex-container__list--item">
+                <span class="about-flex-container__item--logo">                
+                </span>
+                <h4 class="about-flex-container__item--title">Content Creation</h4>
+                <p class="about-flex-container__item--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim. Nulla pellentesque et nisi et euismod. Pellentesque quis tristique magna.
+
+                </p>
+                <p class="about-flex-container__item--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim. Nulla pellentesque et nisi et euismod. Pellentesque quis tristique magna.
+
+                </p>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </section >
+      <section class="features-project">
+        <div class="container">
+          <div class="features-project__nav-elements">
+           
+            <h3 class="features-project__nav-title"><span  class="features-project__nav-title--f">F</span>eatured<span  class="features-project__nav-title--p">P</span>rojects</h3>
+            
+            <ul class="features-project__nav-list">
+              <li class="features-project__nav-list--item">ALL WORKS<a href="" class="features-project__nav-list--link"></a></li>
+              <li class="features-project__nav-list--item"><a href="" class="features-project__nav--link">GAMES </a></li>
+              <li class="features-project__nav-list--item"><a href="" class="features-project__nav--link"> APPLICATIONS</a></li>
+              <li class="features-project__nav-list--item"><a href="" class="features-project__nav--link">CONTENT DEVELOPMENT</a></li>
+             
+            </ul>
+          </div>
+          <div class="features-project__img--works">
+            <div class="features-project__img-grid-containers">
+              <div class="img-grid-item"><img src="./img/features-project/img_1@1x.jpg" alt="" class="img-grid-item--img"></div>
+              <div class="img-grid-item"><img src="./img/features-project/img_2@1x.jpg" alt="" class="img-grid-item--img"></div>
+              <div class="img-grid-item"><img src="./img/features-project/img_3@1x.jpg" alt="" class="img-grid-item--img"></div>
+              <div class="img-grid-item"><img src="./img/features-project/img_4@1x.jpg" alt="" class="img-grid-item--img"></div>
+              <div class="img-grid-item"><img src="./img/features-project/img_5@1x.jpg" alt="" class="img-grid-item--img"></div>
+              <div class="img-grid-item"><img src="./img/features-project/img_6@1x.jpg" alt="" class="img-grid-item--img"></div>
+              <div class="img-grid-item"><img src="./img/features-project/img_7@1x.jpg" alt="" class="img-grid-item--img"></div>
+              <div class="img-grid-item"><img src="./img/features-project/img_8@1x.jpg" alt="" class="img-grid-item--img"></div>
+            </div>
+          </div>
         </div>
       </section>
+        
       <section >
        
       </section>

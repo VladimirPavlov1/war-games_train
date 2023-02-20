@@ -1,0 +1,128 @@
+.about_sub{
+width: 1400px;
+height: auto;
+margin: 0 auto;
+
+background-color: #000e16;
+}
+.about-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width:1198px;
+    height: 260px;
+    gap:20px;
+   
+    
+}
+
+
+.block-about__title{
+   
+    border-right: 2px solid grey;
+    padding: 50px 0px 50px 40px;
+    width: 100%;
+    &--sup{
+        color: #717171;
+        font-size: 1.875rem;
+        line-height: 1;
+        margin-left: 3px;
+        letter-spacing: 2px;
+       
+    }
+    &--sub-s{
+        color: #ffc600;
+        font-size: 5rem;
+        line-height: 0.8;
+        letter-spacing: -7px;
+    }
+    &--sub-ub{
+        color:#000000;
+    }
+    &--sub-lime{
+        color:#000000;
+        &::after{
+            content: "";
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            color:grey;
+        }
+    }
+}
+.block-about__text{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+   
+    &--title{
+        font-family: "Poppins",sans-serif;
+        font-style: italic;
+    }
+    &--text{
+        font-size: 14px;
+        color: #595959;
+        letter-spacing: -0.5px;
+       
+    }
+   
+
+}
+.about-flex-container{
+    width: 1198px;
+    height: 400px;
+
+    padding: 70px 140px 100px;
+    background-color: #fff;
+
+}
+
+.about-flex-container__list{
+    display: flex;
+    justify-content: space-between;
+    gap:40px;
+    
+    
+    &--item{
+        width: 280px;
+        height: 198px;
+        text-align: center;
+       
+        
+    }
+
+}
+.about-flex-container__item{
+    &--logo{
+        display: block;
+        width: 58px;
+        height: 58px;
+        border: none;
+        border-radius: 50%;
+        border:2px solid #ffc600;
+        background-image: url('../../img/about_img/logo_joy@2x.png');
+        background-repeat: no-repeat;
+        background-size: 30px 20px;
+        background-position: center;
+        background-color:#e8e8e8;
+        margin: 0 auto 16px;
+    }
+    &--title{
+        font-size: 1.125rem;
+        color:#000000;
+        margin-bottom: 16px;
+
+    }
+    &--text{
+        font-size: 10px;
+        margin-bottom: 16px;
+      
+    }
+ 
+}

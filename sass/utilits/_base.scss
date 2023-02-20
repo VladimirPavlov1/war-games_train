@@ -14,9 +14,25 @@ p{
     padding: 0;
 }
 
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .container{
     min-width: 320px;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 100px;
+   
 }

@@ -303,9 +303,120 @@ img {
   color: #101010;
   font-size: 9px;
   text-decoration: none;
+  padding: 8px 0;
+  position: relative;
+}
+
+.current::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: center;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+  display: block;
+  width: 50%;
+  height: 2px;
+  background-color: #ffc600;
 }
 
 .features-project__img-grid-containers {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+
+.strategic-project {
+  width: 1400px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #000e16;
+}
+
+.strategic-project__block {
+  background-color: #fff;
+  padding: 66px 20px 44px 80px;
+}
+.strategic-project__block--title {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.strategic-project__block--title-s {
+  color: #ffc600;
+  font-size: 50px;
+}
+.strategic-project__block--title-p {
+  font-size: 50px;
+}
+.strategic-project__block--sub-title {
+  color: #000000;
+  font-size: 16px;
+  margin-bottom: 26px;
+}
+.strategic-project__block--text {
+  color: #595959;
+  font-size: 0.875rem;
+}
+
+.strategic-project-results {
+  background-color: #fff;
+  padding: 0 68px 0 168px;
+}
+.strategic-project-results--list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.strategic-project-results--title {
+  font-size: 30px;
+  color: #1d1d1d;
+}
+.strategic-project-results--title-o {
+  font-size: 50px;
+}
+.strategic-project-results--title-p {
+  font-size: 50px;
+  margin-left: 10px;
+}
+.strategic-project-results--sub-title {
+  color: #000000;
+  font-style: italic;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.strategic-project-results--text {
+  color: #595959;
+  font-size: 0.875rem;
+}
+
+.strategic-project-results--item {
+  display: grid;
+}
+
+.strategic-project-results--item.four {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.strategic-project-results--item.three {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.strategic-project-results--item.two, .strategic-project-results--item.six {
+  padding: 20px 10px 20px 34px;
+}
+
+.strategic-project-results--item.four {
+  padding: 20px 34px 20px 10px;
+}
+
+.services {
+  width: 1400px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #000e16;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,74 @@
+.team__block{
+    display: flex;
+    width:1200px;
+    height: 580px;
+    background-color: #fff;
+    padding: 80px 70px 140px 50px;
+}
+
+.team__title{
+    color: #000000;
+    font-size: 1.875rem;
+    font-weight: 500;
+    line-height: 1.2;
+    position: relative;
+    z-index: 4;
+    width: 300px;
+    align-self: flex-start;
+    &--o{
+        font-size: 3.125rem;
+        color: #ffc600;
+    }
+    &--t{
+        font-size: 3.125rem;
+    }   
+       
+}
+.team__title::after{
+    content: "";
+        position: absolute;
+        bottom: 0;
+        left: 80px;
+        width:35%;
+        height: 4px;
+        background-color:#b2adb3;
+        z-index: 10;
+}
+.team__profile{
+    &--title{
+        color: #000000;
+        font-size: 1rem;
+        font-style: italic;
+        margin-bottom: 25px;
+    }
+    &--text{
+        color: #595959;
+        font-size: 0.875rem;
+        font-style: normal;
+        margin-bottom: 35px;
+    }
+    &--list{
+        display: flex;
+        justify-content: space-between;
+    }
+    &--item{
+        width: 180px;
+        height: auto;
+        text-align: center;
+       
+    }
+    &--user-photo{
+        margin-bottom: 16px;
+    }
+
+    &--user-name{
+        font-size: 1rem;
+        font-weight: 600;
+        color:#000000;
+    }
+    &--user-profesion{
+        font-size: 1rem;
+        font-weight: 400;
+        font-style: italic;
+    }
+}

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -696,7 +697,6 @@ img {
   line-height: 1.2;
   position: relative;
   z-index: 4;
-  width: 290px;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
@@ -704,6 +704,17 @@ img {
   font-size: 3.125rem;
   color: #ffc600;
   letter-spacing: -8px;
+}
+
+.blog__elements--item-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #b2adb3;
+  z-index: 10;
 }
 
 .blog__elements--item:nth-child(1) {
@@ -716,6 +727,16 @@ img {
   padding-top: 156px;
 }
 
+.blog__elements--item:nth-child(3) {
+  padding-top: 0;
+  margin-left: 100px;
+}
+
+.blog__elements--item:nth-child(n+4) {
+  margin-left: 60px;
+  padding-top: 0;
+}
+
 .blog-elements--link {
   display: block;
   width: 180px;
@@ -726,4 +747,51 @@ img {
 }
 .blog-elements--link:hover, .blog-elements--link :focus, .blog-elements--link :active {
   color: #ffc600;
+}
+
+.blog-elements--item--img {
+  width: 180px;
+  height: 206px;
+}
+
+.blog__elements-item--title {
+  font-size: 18px;
+  color: #ffc600;
+  margin: 10px 0 26px;
+}
+.blog__elements-item-sub-title {
+  width: 180px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.blog__elements-item-text {
+  width: 180px;
+  font-size: 12px;
+  color: #000000;
+}
+
+.contacts__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contacts-map {
+  position: relative;
+  width: 500px;
+  height: 684px;
+  background-image: url("../../img/contact-img/карта.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contacts-map--btn {
+  position: absolute;
+  top: 156px;
+  left: 220px;
+  width: 60px;
+  height: 60px;
+  border: 3px solid #ffc600;
+  border-radius: 50%;
+  background-image: url("../../img/contact-img/back_btn@1x.jpg");
 }/*# sourceMappingURL=main.css.map */

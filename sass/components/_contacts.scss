@@ -12,7 +12,7 @@
     position: relative;
     width: 500px;
     height: 684px;
-    background-image: url('../../img/contact-img/карта.jpg');
+    background-image: url('../img/contact-img/карта.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     &--btn{
@@ -23,7 +23,7 @@
         height: 60px;
         border: 3px solid #ffc600;
         border-radius: 50%;
-        background-image: url('../../img/contact-img/back_btn@1x.jpg');
+        background-image: url('../img/contact-img/back_btn@1x.jpg');
     }
 }
 .contacts-form{
